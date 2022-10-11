@@ -9,7 +9,7 @@ import string
 
 def parse_args():
     cli_parser = argparse.ArgumentParser(
-        prog="obsidian_renamer",
+        prog="rename_markdown_files",
         usage="%(prog)s [options] path(s)",
         description="Rename Obsidian file(s) in accordance with Markdown title",
         allow_abbrev=False,
