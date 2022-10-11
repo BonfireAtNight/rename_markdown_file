@@ -1,4 +1,4 @@
-# rename_markdown_file
+# rename_markdown_files
 Rename Markdown files in accordance with the title of the document.
 
 ## Installation
@@ -26,7 +26,7 @@ Einige wichtige Informationen
 
 ```bash
 rename_obsidian_files.py ~/Notes/test.md
-# New file name: Dies ist ein Titel  eine Ueberschrift1.md
+# New file name: Dies ist ein Titel  eine Ueberschrift!.md
 
 rename_obsidian_files.py ~/Notes/test.md -u
 # New file name: Dies_ist_ein_Titel__eine_Ueberschrift!.md
