@@ -9,6 +9,11 @@ The script doesn't need to be installed, just download and execute it. However, 
 rename_markdown_files [FILE]... [OPTIONS]...
 ```
 
+- `-l`: replace uppercase letters in the title by lowercase letters in the file name
+- `-o`: allow only letters, the underscore (`_`), and the hypthen (`-`) in the file name
+- `-u` or `-y`: replace spaces by underscores or hyphens
+- `-h`: help
+
 ## Motivation
 Markdown files have a name and (usually) a title (H1). In [Obsidian](https://obsidian.md/), the two are used for different purposes. Today, the file names primarily serves as unique identifier. [In the past](https://forum.obsidian.md/t/use-h1-or-front-matter-title-instead-of-or-in-addition-to-filename-as-display-name/687), it had been used in other contexts for which Obsidian now uses titles.
 
