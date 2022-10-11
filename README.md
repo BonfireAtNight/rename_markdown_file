@@ -6,7 +6,7 @@ The script doesn't need to be installed, just download and execute it. However, 
 
 ## Usage
 ```bash
-rename_markdown_files [FILE]... [OPTIONS]...
+rename_markdown_files.py [FILE]... [OPTIONS]...
 ```
 
 - `-l`: replace uppercase letters in the title by lowercase letters in the file name
